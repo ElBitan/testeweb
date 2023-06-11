@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>torah-scrol</title>
     <link rel="shortcut icon" href="iv1.png" type="image/x-icon">
-    <style>
+   <style>
         html {
   scroll-behavior: smooth;
 }
 
         body{
-            background-color: black;
+            background-color: snow;
         }
         .video{
             text-align: center;
@@ -26,10 +26,36 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         iframe{border-radius: 0px 0px 50px 50px;
-width: 50%;
+width: 70%;
     display: block;
     margin-right: auto;
     margin-left: auto;}
+    .pnav {
+  overflow: hidden;
+  background-color: snow;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ float: right;
+}
+
+.pnav a {
+float: left;
+ display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.pnav a:hover {
+  background: rgb(13, 12, 12);
+  color: snow;
+}
+.prés{
+    color: black;
+}
         @media (prefers-color-scheme: dark) {
 body {
 background-color: #1c1c1e;
@@ -41,15 +67,41 @@ color: #5fa9ee;
 img {
 filter: grayscale(20%);
 }
+.pnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ float: right;
+}
+
+.pnav a {
+float: left;
+ display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.pnav a:hover {
+  background: #ddd;
+  color: black;
+}
+.prés{
+    color: snow;
+}
 }
     </style>
 </head>
 <body>
     <header>
-    <h1 style="text-align: center;color:white;">présentaion de projet torah-scrol</h1>
-    <p class="prés" style="text-align: center; color: white;">torah-scrol a' commenser par <a href="https://coursdetorah.tk/">torah-cours</a></p>
+    <h1 style="text-align: center;">présentaion de projet torah-scrol</h1>
+    <p class="prés" style="text-align: center; ">torah-scrol a' commenser par <a href="https://coursdetorah.tk/">torah-cours</a></p>
     <p class="video">
-    <video src="WhatsApp Video 2023-06-01 at 22.53.09.mp4" width="50%" height="420"  poster="iv1.png"  autoplay muted loop controls></video>
+    <video src="WhatsApp Video 2023-06-01 at 22.53.09.mp4" width="70%" height="420"  poster="iv1.png"  autoplay muted loop controls></video>
 </p>
 <h1 style="text-align: center;">La Torah, c'est pas sorcier - LE TALMUD</h1>
 <iframe width="50%" height="420" src="https://www.youtube.com/embed/87U2-AmlHZc?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -59,6 +111,17 @@ filter: grayscale(20%);
     <iframe width="50%" height="420" src="https://www.youtube.com/embed/mDF5gh1kabA?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <h1 style="text-align: center;">Dans quel ordre s'habille t-on le matin ? (Rav Emmanuel BENSIMON)</h1>
     <iframe width="50%" height="420" src="https://www.youtube.com/embed/7IZuxkQgP_U?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
 </main>
+
+<footer>
+    <p class="pnav">
+        <marquee behavior="alternate" direction="center" >
+        <a href="index.html">Home</a>
+        <a href="https://coursdetorah.tk/">plus de video</a>
+        <a href="contacter.html">Contacter nous</a></marquee>
+    </p>
+      
+</footer>
 </body>
 </html>
